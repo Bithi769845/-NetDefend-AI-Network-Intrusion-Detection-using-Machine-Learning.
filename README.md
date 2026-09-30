@@ -29,19 +29,19 @@ Modern computer networks face continuous cyber threats ranging from Denial of Se
 
 ```mermaid
 flowchart TD
-    A[Raw NSL-KDD Dataset] --> B[Data Preprocessing & Cleaning]
-    B --> C[Duplicate Removal & Handling Missing Values]
-    C --> D[Standard Scaling & Categorical Label Encoding]
-    D --> E[Feature Selection Strategy]
-    E --> F1[Correlation Analysis |r| > 0.5]
-    E --> F2[Mutual Information SelectKBest]
-    E --> F3[Principal Component Analysis PCA]
-    F1 --> G[Combined Feature Subset Selection]
+    A["Raw NSL-KDD Dataset"] --> B["Data Preprocessing & Cleaning"]
+    B --> C["Duplicate Removal & Handling Missing Values"]
+    C --> D["Standard Scaling & Categorical Label Encoding"]
+    D --> E["Feature Selection Strategy"]
+    E --> F1["Correlation Analysis (|r| > 0.5)"]
+    E --> F2["Mutual Information (SelectKBest)"]
+    E --> F3["Principal Component Analysis (PCA)"]
+    F1 --> G["Combined Feature Subset Selection"]
     F2 --> G
     F3 --> G
-    G --> H[Class Rebalancing via RandomOverSampler]
-    H --> I[80/20 Train-Test Dataset Splitting]
-    I --> J[Machine Learning Model Training & Evaluation]
+    G --> H["Class Rebalancing via RandomOverSampler"]
+    H --> I["80/20 Train-Test Dataset Splitting"]
+    I --> J["Machine Learning Model Training & Evaluation"]
 ```
 
 ---
@@ -128,4 +128,5 @@ Contributions are welcome! If you'd like to improve the models, add new baseline
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the Branch (`git push origin feature/AmazingFeature`).
 5. Open a Pull Request.
+
 
