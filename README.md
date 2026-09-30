@@ -26,6 +26,8 @@ Modern computer networks face continuous cyber threats ranging from Denial of Se
 ---
 
 ## 📐 Machine Learning Pipeline Architecture
+
+```mermaid
 flowchart TD
     A[Raw NSL-KDD Dataset] --> B[Data Preprocessing & Cleaning]
     B --> C[Duplicate Removal & Handling Missing Values]
@@ -126,6 +128,4 @@ Contributions are welcome! If you'd like to improve the models, add new baseline
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
 4. Push to the Branch (`git push origin feature/AmazingFeature`).
 5. Open a Pull Request.
-
----
 
