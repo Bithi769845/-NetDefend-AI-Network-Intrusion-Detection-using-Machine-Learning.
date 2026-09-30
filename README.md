@@ -26,8 +26,6 @@ Modern computer networks face continuous cyber threats ranging from Denial of Se
 ---
 
 ## 📐 Machine Learning Pipeline Architecture
-
-```mermaid
 flowchart TD
     A[Raw NSL-KDD Dataset] --> B[Data Preprocessing & Cleaning]
     B --> C[Duplicate Removal & Handling Missing Values]
